@@ -11,6 +11,9 @@
 * {
    margin: 0px;
 }
+body{
+   background-color: #f5f8ff;
+}
 
 /* logo button */
 
@@ -166,7 +169,7 @@
 .review-parent{
    display: flex;
    gap: 20px;
-   /* justify-content: space-evenly; */
+   
 
 
 }
@@ -183,5 +186,35 @@ padding: 24px;
 
 }
 
-
+/* template */
+.template{
+   margin: 137px 149px 0px 151px;
+   padding: 150px 71px;
+   background-color: #FFFFFF;
+   border-radius: 14px;
+   
+   
+}
+.tamplate-title{
+   font-size: 50px;
+   font-weight: bold;
+   text-align: center;
+}
+.tamplate-subtitle{
+   text-align: center;
+   padding-top: 20px;
+   
+   
+}
+.tamplate-button{
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+.tamplate-image , img{
+   text-align: center;
+   
+   border-radius: 48px;
+   
+}
 
