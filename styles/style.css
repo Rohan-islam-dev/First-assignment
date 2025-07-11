@@ -2,97 +2,145 @@
 
 
 .raleway-font {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+   font-family: "Raleway", sans-serif;
+   font-optical-sizing: auto;
+   font-style: normal;
 
 }
 
-*{
+* {
    margin: 0px;
 }
 
 /* logo button */
 
-.logo-button{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin:0 150px ;
-    padding-top: 50px;
-    padding-bottom: 50px;
-   
-    
-}
-.nav-title{
-    font-size: 34px;
-    color: #4E47FF;
-    font-weight:800;
+.logo-button {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 0 150px;
+   padding-top: 50px;
+   padding-bottom: 50px;
+
+
 }
 
-.btn-primary{
-    background-color: #4E47FF;
-    border-radius: 10px;
-    font-size: 16px;
-    color: #FFFFFF;
-    font-weight: bold;
-    border: none;
-    padding: 12px 35px;
+.nav-title {
+   font-size: 34px;
+   color: #4E47FF;
+   font-weight: 800;
 }
- /* background image */
- 
- .header{
-    background-image: url('../Assets/Hero-bg.png');
-    height: 698px;
-    
- }
 
-
- .cool-dark{
-    font-size: 65px;
-    
-    font-weight: bold;
-    color: #252432;
-    text-align: center;
-    margin: 120px 267.5px;
-    
+.btn-primary {
+   background-color: #4E47FF;
+   border-radius: 10px;
+   font-size: 16px;
+   color: #FFFFFF;
+   font-weight: bold;
+   border: none;
+   padding: 12px 35px;
 }
- 
+
+/* background image */
+
+.header {
+   background-image: url('../Assets/Hero-bg.png');
+   height: 698px;
+
+}
 
 
- /* Action style  */
- .Action-section{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 90px;
-    margin-left: 141px;
-    margin-right: 159px;
-    
- }
- .left-side{
-  width: 517px;
-  height: 203px;
- }
- .title{
-    font-size: 43px;
-    font-weight: bold;
-    color: #252432;
-    margin-bottom: 23px;
-    text-align: r;
-    
- }
- 
- .subtitle{
-    font-size: 24px;
-    font-weight: 400;
-    color: #252432;
-    
- }
- .action-button{
+.cool-dark {
+   font-size: 65px;
+
+   font-weight: bold;
+   color: #252432;
+   text-align: center;
+   margin: 120px 267.5px;
+
+}
+
+
+
+/* Action style  */
+.Action-section {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 90px;
+   margin-left: 141px;
+   margin-right: 159px;
+
+}
+
+.left-side {
+   width: 517px;
+   height: 203px;
+}
+
+.title {
+   font-size: 43px;
+   font-weight: bold;
+   color: #252432;
+   margin-bottom: 23px;
+   text-align: r;
+
+}
+
+.subtitle {
+   font-size: 24px;
+   font-weight: 400;
+   color: #252432;
+
+}
+
+.action-button {
    margin-top: 23px;
- }
- .Right-side img{
-   border-radius: 48px;
- }
+}
 
- 
+.Right-side img {
+   border-radius: 48px;
+}
+
+/* Productive-Users-Section */
+
+.Productive-Users-Section {
+   background-color: #e5e7ff;
+   margin-top: 116px;
+   border-radius: 24px;
+   border: none;
+   margin-left: 141px;
+   margin-right: 159px;
+   padding:50px 142px ;
+
+}
+
+.productive-user-heading{
+
+   font-size: 38px;
+   font-weight: bold;
+   color: #252432;
+   text-align: center;
+
+}
+
+
+.user-title{
+   font-size: 80px;
+   font-weight: bold;
+   color: #4E47FF;
+
+}
+
+.user-subtitle{
+   font-size: 20px;
+   font-weight: 400;
+   color: #000000;
+   
+}
+
+
+.productive-parent{
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 40px;
+}
