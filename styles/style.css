@@ -221,16 +221,15 @@ padding: 24px;
 /* Touch-section */
 .Touch-section{
    margin: 92.23px 150px 0px 150px;
+  display: flex;
 }
 .SectionTitle{
    font-size: 97px;
    font-weight: bold;
-
+   text-align: left;
 
 }
-.Touch-section{
-   display: flex;
-}
+
 /* form */
 .Right-Side{
    width: 50%;
