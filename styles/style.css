@@ -233,6 +233,7 @@ padding: 24px;
 /* form */
 .Right-Side{
    width: 50%;
+   padding-bottom: 71px;
 
 }
 .Right-Side input[type="text"],.Right-Side input[type="email"], textarea{
@@ -251,3 +252,47 @@ margin-bottom: 19px;
 .input-button{
    padding: 19px 200px ;
 }
+/* footer */
+
+.Website{
+   padding: 104px  455px;
+   text-align: center;
+   height: 428px;
+   margin-top: 4px;
+ 
+   background-color: #ffffffbb;
+}
+.Website-name{
+   font-size: 100px;
+   font-weight: bolder;
+   color: #4E47FF;
+   
+
+}
+.website-subtitle{
+   color: #8987A1;
+   padding-top: 8px;
+
+}
+.website-link ul{
+   display:flex;
+   justify-content: center;
+      padding-top: 20px; 
+  
+}
+.website-link a{
+ text-decoration: none;
+ color: #8987A1;
+ margin-right: 40px;
+ 
+
+
+} 
+
+.website-link ul li{
+   list-style:none ;
+  
+}  
+
+
+
